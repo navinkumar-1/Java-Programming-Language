@@ -6,8 +6,6 @@ public class exm7 {
             int lastdigit = n % 10;
             System.out.print(lastdigit+"");
             n = n / 10;
-
- 
         }
 
     }
