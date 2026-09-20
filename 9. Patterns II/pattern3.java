@@ -1,19 +1,18 @@
-public class exm2 {
-    public static void pyramid(int n){
-        for(int i = 1; i <=n; i++){
+public class pattern3 {
+    public static void triangle(int row){
+        for(int i=1;i<=row;i++){
             //spaces
-            for (int j =1; j<=n-i;j++){
+            for(int j=1;j<=row-i;j++){
                 System.out.print(" ");
             }
             //stars
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
-            //next line 
-        System.out.println();
+            System.out.println();
         }
     }
     public static void main(String args[]){
-        pyramid(5);
-    } 
+        triangle(5);
+    }
 }
